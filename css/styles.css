@@ -64,12 +64,36 @@ body {
 }
 .wrapper .game-board {
   margin: 0 auto;
-  width: 500px;
-  height: 500px;
+  width: 495px;
+  height: 495px;
   background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
-.wrapper .game-board .test {
-  width: 55px;
+.wrapper .game-board .row {
   height: 55px;
-  background-color: #000;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: space-evenly;
+      align-content: space-evenly;
+}
+.wrapper .game-board .row input {
+  width: 55px;
+  height: 100%;
+  color: #000;
+  font-size: 45px;
+  text-align: center;
+  border: solid 1px #000;
+  outline: none;
+}
+.wrapper .game-board .row .tinted {
+  background-color: #f29bde;
 }
