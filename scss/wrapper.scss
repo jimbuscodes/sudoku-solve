@@ -1,22 +1,23 @@
 .wrapper {
   width: 100%;
   height: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-content: space-around;
+  justify-content: center;
 
   .game-board {
     margin: 0 auto;
-    width: 1000px;
-    height: 1000px;
+    width: 500px;
+    height: 500px;
     background-color: #fff;
 
     .test {
-      width: 110px;
-      height: 110px;
+      width: 55px;
+      height: 55px;
       background-color: #000;
     }
   }

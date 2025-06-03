@@ -1,13 +1,16 @@
 .title {
   color: #fff;
-  font-family: gillsans-light;
-  font-size: 40px;
+  margin: 0 auto;
   border-bottom: solid 2px #fff;
 
   .title-text {
     margin-left: 5%;
-    margin-top: 15px;
+    margin-top: 20px;
     font-family: gillsans-light;
     font-size: 40px;
+
+    p {
+      margin-bottom: 5px;
+    }
   }
 }

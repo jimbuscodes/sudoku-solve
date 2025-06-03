@@ -30,22 +30,24 @@ body {
 }
 .title {
   color: #fff;
-  font-family: gillsans-light;
-  font-size: 40px;
+  margin: 0 auto;
   border-bottom: solid 2px #fff;
 }
 .title .title-text {
   margin-left: 5%;
-  margin-top: 15px;
+  margin-top: 20px;
   font-family: gillsans-light;
   font-size: 40px;
+}
+.title .title-text p {
+  margin-bottom: 5px;
 }
 
 .wrapper {
   width: 100%;
   height: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -56,15 +58,18 @@ body {
           flex-direction: column;
   -ms-flex-line-pack: distribute;
       align-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .wrapper .game-board {
   margin: 0 auto;
-  width: 1000px;
-  height: 1000px;
+  width: 500px;
+  height: 500px;
   background-color: #fff;
 }
 .wrapper .game-board .test {
-  width: 110px;
-  height: 110px;
+  width: 55px;
+  height: 55px;
   background-color: #000;
 }
