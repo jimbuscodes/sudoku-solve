@@ -63,3 +63,8 @@ body {
   height: 1000px;
   background-color: #fff;
 }
+.wrapper .game-board .test {
+  width: 110px;
+  height: 110px;
+  background-color: #000;
+}
