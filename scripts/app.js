@@ -151,6 +151,13 @@ function fillBox(grid, row, col) {
 function solve() {
   const grid = getInputsAs2DArray();
 
+  // check if grid is empty (stops the bug where solve button on empty grid generates random puzzle and solves it)
+  const isEmpty = grid.every((row) => row.every((cell) => cell === 0));
+  if (isEmpty) {
+    alert("Puzzle is empty. Please enter a puzzle to solve.");
+    return;
+  }
+
   // validate current state
   if (!isValidSudoku(grid)) {
     alert("Invalid Sudoku puzzle! Please check your input.");
