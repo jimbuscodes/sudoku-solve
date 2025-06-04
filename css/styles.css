@@ -61,6 +61,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .wrapper .game-board {
   margin: 0 auto;
@@ -96,4 +99,22 @@ body {
 }
 .wrapper .game-board .row .tinted {
   background-color: #f29bde;
+}
+.wrapper .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 495px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+.wrapper .buttons button {
+  background-color: #696969;
+  color: #fff;
+  font-family: gillsans-bold;
+  font-size: 20px;
 }

@@ -8,6 +8,7 @@
   flex-direction: column;
   align-content: space-around;
   justify-content: center;
+  align-items: center;
 
   .game-board {
     margin: 0 auto;
@@ -37,6 +38,21 @@
       .tinted {
         background-color: #f29bde;
       }
+    }
+  }
+
+  .buttons {
+    display: flex;
+    width: 495px;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    button {
+      background-color: #696969;
+      color: #fff;
+      font-family: gillsans-bold;
+      font-size: 20px;
     }
   }
 }
