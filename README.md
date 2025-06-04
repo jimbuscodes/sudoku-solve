@@ -1,5 +1,5 @@
 # sudoku-solve
 sudoku solver
 
-#Link
+# Link
 https://jimbuscodes.github.io/sudoku-solve/
