@@ -128,20 +128,22 @@ body {
 
 @media (max-width: 400px) {
   .wrapper .game-board {
-    width: 315px;
-    height: 315px;
+    width: 270px;
+    height: 270px;
   }
   .wrapper .game-board .row {
-    height: 35px;
+    height: 30px;
   }
   .wrapper .game-board .row input {
-    width: 35px;
-    font-size: 30px;
+    width: 30px;
+    font-size: 25px;
   }
   .wrapper .buttons {
-    width: 250px;
+    width: 200px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .wrapper .buttons button {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
