@@ -43,6 +43,13 @@ body {
   margin-bottom: 5px;
 }
 
+@media (max-width: 400px) {
+  .title .title-text {
+    font-size: 35px;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+}
 .wrapper {
   width: 100%;
   height: 100%;
@@ -117,4 +124,24 @@ body {
   color: #fff;
   font-family: gillsans-bold;
   font-size: 20px;
+}
+
+@media (max-width: 400px) {
+  .wrapper .game-board {
+    width: 360px;
+    height: 360px;
+  }
+  .wrapper .game-board .row {
+    height: 40px;
+  }
+  .wrapper .game-board .row input {
+    width: 40px;
+    font-size: 30px;
+  }
+  .wrapper .buttons {
+    width: 300px;
+  }
+  .wrapper .buttons button {
+    font-size: 15px;
+  }
 }

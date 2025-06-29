@@ -56,3 +56,27 @@
     }
   }
 }
+
+// for mobile
+
+@media (max-width: 400px) {
+  .wrapper {
+    .game-board {
+      width: 360px;
+      height: 360px;
+      .row {
+        height: 40px;
+        input {
+          width: 40px;
+          font-size: 30px;
+        }
+      }
+    }
+    .buttons {
+      width: 300px;
+      button {
+        font-size: 15px;
+      }
+    }
+  }
+}
