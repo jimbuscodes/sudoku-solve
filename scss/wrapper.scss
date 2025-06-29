@@ -62,18 +62,22 @@
 @media (max-width: 400px) {
   .wrapper {
     .game-board {
-      width: 270px;
-      height: 270px;
+      width: 207px;
+      height: 207px;
       .row {
-        height: 30px;
+        height: 23px;
         input {
-          width: 30px;
-          font-size: 25px;
+          width: 23px;
+          font-size: 20px;
         }
       }
     }
     .buttons {
+      margin: 0 auto;
+      margin-top: 20px;
       width: 200px;
+      padding-left: 5px;
+      padding-right: 5px;
       justify-content: space-around;
       button {
         font-size: 10px;
